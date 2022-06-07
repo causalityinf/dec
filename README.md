@@ -20,7 +20,7 @@ name_col_duration: name of duration column
 
 Example:  
 ```
-python3 source/DEC.py --nst -I data/air/Air_PM10.csv -O result --cause cause --effect effect --duration duration
+python3 source/DEC.py --nst -I data/air/withDuration/Air_PM10_Duration.csv -O result --cause cause --effect effect --duration duration
 ```
 
 ## To compute DCIR<sub>P</sub>
@@ -36,7 +36,7 @@ name_col_duration: name of duration column
 
 Example:  
 ```
-python3 source/DEC.py --cirb -I data/air/Air_PM10.csv -O result --cause cause --effect effect --duration duration
+python3 source/DEC.py --cirb -I data/air/withDuration/Air_PM10_Duration.csv -O result --cause cause --effect effect --duration duration
 ```
 
 ## To compute DCIR<sub>N</sub>
@@ -52,7 +52,7 @@ name_col_duration: name of duration column
 
 Example:  
 ```
-python3 source/DEC.py --circ -I data/air/Air_PM10.csv -O result --cause cause --effect effect --duration duration
+python3 source/DEC.py --circ -I data/air/withDuration/Air_PM10_Duration.csv -O result --cause cause --effect effect --duration duration
 ```
 
 ## To compute DCIR<sub>M</sub>
@@ -69,5 +69,5 @@ path_parent: path of parent file
 
 Example:  
 ```
-python3 source/DEC.py --cirm -I data/air/Air_PM10.csv -O result --cause cause --effect effect --duration duration --parent parent/air/parent_PM10.json
+python3 source/DEC.py --cirm -I data/air/withDuration/Air_PM10_Duration.csv -O result --cause cause --effect effect --duration duration --parent parent/air/parent_PM10.json
 ```
